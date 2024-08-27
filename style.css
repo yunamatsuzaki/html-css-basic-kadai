@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-size: 20px; /* ルート要素のフォントサイズを20pxに設定 */
+}
+
+body{
+	font-family: "Arial", "Meiryo", sans-serif;/*フォント種類*/
+	font-size: 1rem;/* デフォルトのフォントサイズをルート要素に合わせる */
+	text-align: center;/*中央寄せ*/
+}
+
+body h1{
+	font-family: "Josefin Sans", sans-serif; /*Googleフォント*/
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	letter-spacing:1.2em; /* 文字間をフォントサイズの1.2倍に設定 */
+	text-shadow: 1px 1px 2px gray;/*テキスト影*/
+	font-size: 2rem; /* ルート要素のフォントサイズの2倍に設定 */
+	border-bottom: 3px solid rgb(115, 115, 114); /* 下部に線を追加 */
+}
+
+
+body h1 .blue{
+	color: skyblue;/*スカイブルー見出し*/
+}
+
+body h1 .pink{
+	color: rgb(255, 192, 203);/*ピンク見出し*/
+}
+
+body .blue{
+	color: skyblue;
+}
+
+body .pink{
+	color: rgb(255, 192, 203);
+}
+
+#basic>p{
+	font-weight: bold;/*太字*/
+}
